@@ -1,0 +1,74 @@
+.nav {
+    display: flex;
+    background-color:rgb(248, 185, 107);
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 7px;
+    padding-top: 5px;
+    padding-left: 5%;
+    padding-right:25%;
+
+  }
+  .logo {
+    color: rgb(255, 255, 255);
+    /* please up this logo */
+ 
+   
+  }
+  .span {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255); /* Set the background color */  
+    border-radius: 7px; /* Adjust the value for more or less rounding */  
+    padding: 5px; /* Optional: Add some padding around the logo */  
+    display: inline-block;
+    font-weight: 800  ; 
+    margin-bottom: 8px;
+    
+  }
+    .span:hover {
+      color: rgba(255, 255, 255, 1);
+      background-color: rgba(21, 10, 4, 1);
+      transition: 0.3s;
+      box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+  
+    }
+  .nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  .nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .nav ul li a:hover{
+    color: rgba(255, 255, 255, 0.638);
+    transition: 0.3s;
+  }
+   
+.button{
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: 800;
+  border-radius: 7px; /* Adjust the value for more or less rounding */  
+  padding: 7px;
+  /* i want be button in end */
+  text-align: left;
+  justify-content: left;
+  display:flex;
+  
+}
+.button:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(21, 10, 4, 1);
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px rgb(255, 255, 255); 
+
+}
