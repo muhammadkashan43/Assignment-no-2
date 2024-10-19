@@ -8,9 +8,9 @@
     position:static;
     color:rgb(0, 0, 0);
     box-shadow: 0px 0px 5px rgb(248, 185, 107);
-    /* how to little bit righter */
-    transform: translateX(350px);
-    /* i want to big my card including text */
+    transform: translateX(400px);
+    
+   
  
     
   }

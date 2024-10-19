@@ -4,7 +4,8 @@
     align-items: flex-end;
     justify-content: space-between;
     padding: 7px;
-    padding-top: 5px;
+    padding-top: 1px;
+    padding-bottom:1px;
     padding-left: 5%;
     padding-right:25%;
 
@@ -61,7 +62,7 @@
   padding: 7px;
   /* i want be button in end */
   text-align: left;
-  justify-content: left;
+  justify-content: end;
   display:flex;
   
 }
